@@ -8,8 +8,8 @@ This project aims to assess the state of a ATP tennis match through a Monte-Carl
 
 ## Sample Match: Roger Federer vs Rafael Nadal (2008 Wimbledon)
 
-To display and test my findings, I calculated win probability and leverage at every point in the Roger Federer vs Rafael Nadal 2008 Wimbledon Final epic that went into 5 sets and was extremely close. The results 
+To display and test my findings, I calculated win probability and leverage at every point in the Roger Federer vs Rafael Nadal 2008 Wimbledon Final epic that went into 5 sets and was extremely close. The results are in the 'new_tennis_sim.ipynb' notebook.
 
 ## Further Study and Applications:
 
-While the model is quite simple, the power of simulation is immense and this model can 
+While the model is quite simple, the power of simulation is immense and this model has wide applications to sports betting. I'm looking to factor in head to head record as well as momentum in the model.
