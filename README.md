@@ -13,3 +13,4 @@ To display and test my findings, I calculated win probability and leverage at ev
 ## Further Study and Applications:
 
 While the model is quite simple, the power of simulation is immense and this model has wide applications to sports betting. I'm looking to factor in head to head record as well as momentum in the model.
+<img width="756" alt="image" src="https://github.com/user-attachments/assets/8f0bc5f5-ad1b-48b4-b418-adac1d5c83b7">
