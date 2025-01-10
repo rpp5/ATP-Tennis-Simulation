@@ -1,8 +1,8 @@
 # ATP-Tennis-Simulation:
 This project aims to assess the state of a ATP tennis match through a Monte-Carlo based simulation approach that takes into account each player's serving and returning ability from any scoreline. 
 
-### Step 1: 
-Compute P_a - the probability of the server winning a point (which will be useful when utilizing a Markov Chain Model) based on both their serving ability and the opposing player's returning ability: 
+### Step 1: Compute P<sub>a</sub> - the probability of the server winning a point
+To compute P<sub>a</sub>, we have to take into account the skill of the server, but also of the returner, as stronger returners will lead to a lower probability of the server winning a point. 
 
 ### Step 2: Run Markov Chain Model
 <img width="756" alt="image" src="https://github.com/user-attachments/assets/8f0bc5f5-ad1b-48b4-b418-adac1d5c83b7">
