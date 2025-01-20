@@ -2,7 +2,14 @@
 This project aims to assess the state of a ATP tennis match through a Monte-Carlo based simulation approach that takes into account each player's serving and returning ability from any scoreline. 
 
 ### Step 1: Compute P<sub>a</sub> - the probability of the server winning a point
-To compute P<sub>a</sub>, we have to take into account the skill of the server, but also of the returner, as stronger returners will lead to a lower probability of the server winning a point. If we suppose the first serve is in play, then let P<sub>s</sub> = P(Server wins his first serve (in isolation)) and P<sub>r</sub> = P(Returner wins point when returning first serve (in isolation)). Such data can be found on atptour.com. Then the final probability of the server winning a point on his first serve is 1<sup>2</sup>/<sub>4</sub>
+To compute P<sub>a</sub>, we have to take into account the skill of the server, but also of the returner, as stronger returners will lead to a lower probability of the server winning a point. If we suppose the first serve is in play, then let P<sub>s</sub> = P(Server wins his first serve (in isolation)) and P<sub>r</sub> = P(Returner wins point when returning first serve (in isolation)). Such data can be found on atptour.com. Then the final probability of the server winning a point on his first serve is 1<sup>2</sup>/<sub>4</sub>. # Fraction Example
+
+Here are some fractions:
+
+- Plain Text: 1/2, 3/4
+- Unicode: ½, ⅓, ¾
+- LaTeX Math: $\frac{3}{4}$
+- HTML: 1<sup>2</sup>/<sub>4</sub>
 
 ### Step 2: Run Markov Chain Model
 <img width="756" alt="image" src="https://github.com/user-attachments/assets/8f0bc5f5-ad1b-48b4-b418-adac1d5c83b7">
