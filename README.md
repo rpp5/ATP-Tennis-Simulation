@@ -2,7 +2,7 @@
 This project aims to assess the state of a ATP tennis match through a Monte-Carlo based simulation approach that takes into account each player's serving and returning ability from any scoreline. 
 
 ### Step 1: Compute P<sub>a</sub> - the probability of the server winning a point
-To compute ${P_a}$, we have to take into account the skill of the server, but also of the returner, as stronger returners will lead to a lower probability of the server winning a point. If we suppose the first serve is in play, then let ${P_s}$ = P(Server wins his first serve (in isolation)) and ${P_r}$ = P(Returner wins point when returning first serve (in isolation)). Such data can be found on atptour.com. Then the final probability of the server winning a point on his first serve is ${P_a}$ = $\frac{P_s + (1-P_r}{2}$
+To compute ${P_a}$, we have to take into account the skill of the server, but also of the returner, as stronger returners will lead to a lower probability of the server winning a point. If we suppose the first serve is in play, then let ${P_s}$ = P(Server wins his first serve (in isolation)) and ${P_r}$ = P(Returner wins point when returning first serve (in isolation)). Such data can be found on atptour.com. Then the final probability of the server winning a point on his first serve is ${P_a}$ = $\frac{P_s + (1-P_r)}{2}$
 
 
 
