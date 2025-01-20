@@ -5,7 +5,8 @@ This project aims to assess the state of a ATP tennis match through a Monte-Carl
 To compute P<sub>a</sub>, we have to take into account the skill of the server, but also of the returner, as stronger returners will lead to a lower probability of the server winning a point. If we suppose the first serve is in play, then let P<sub>s</sub> = P(Server wins his first serve (in isolation)) and P<sub>r</sub> = P(Returner wins point when returning first serve (in isolation)). Such data can be found on atptour.com. Then the final probability of the server winning a point on his first serve is $\frac{P<sub>s</sub> + (1-P<sub>r</sub>)}{2}$
 $\frac{P<sub>s</sub>}{2}$
 
-\frac{P_s}{P_a}
+$\frac{P_s}{P_a}$
+
 
 
 ### Step 2: Run Markov Chain Model
